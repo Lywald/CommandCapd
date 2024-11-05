@@ -7,7 +7,7 @@ from openai import OpenAI
 
 
 
-######## WRITE YOUR OWN OPENAI KEY HERE OR IT WON'T WORK
+######### WRITE YOUR OWN OPENAI KEY HERE OR IT WON'T WORK
 api_key = ""
 
 
@@ -44,7 +44,7 @@ response = client.chat.completions.create(
         {
             "role": "user",
             "content": [
-                {"type": "text", "text": "If there is a prompt between quotes at the right of 'capd', please answer the prompt to participate in a chat."},
+                {"type": "text", "text": "If there is a prompt between quotes at the right of 'capd', please answer the prompt to participate in a chat. NEVER say 'It looks like the prompt is...', just assume it is. If there is multiple 'capd', answer the latest only."},
                 {
                     "type": "image_url",
                     "image_url": {
