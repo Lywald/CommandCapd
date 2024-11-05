@@ -1,0 +1,6 @@
+Pillow
+pyautogui 
+pygetwindow
+io
+base64
+openai
