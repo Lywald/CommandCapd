@@ -23,6 +23,10 @@ https://www.yopa.page/blog/2024-09-14-transform-python-scripts-into-global-comma
 
 (I already created the .bat file for you to download. You just need to add the folder to PATH.)
 
+Also run this command to install the needed packages:
+pip install -r .\requirements.txt
+
+
 # API Key
 Don't forget to add your own API Key in the python file, or it won't run.
 
